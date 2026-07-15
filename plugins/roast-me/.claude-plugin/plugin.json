@@ -1,0 +1,17 @@
+{
+  "name": "roast-me",
+  "version": "1.0.0",
+  "description": "Roast the user based on their own git history — commit messages, timing, force-pushes, uncommitted mess, all of it. Purely for laughs.",
+  "author": {
+    "name": "Phil Davies",
+    "url": "https://github.com/bearmoth"
+  },
+  "repository": "https://github.com/bearmoth/skills",
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "comedy",
+    "roast",
+    "fun"
+  ]
+}

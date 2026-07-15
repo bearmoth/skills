@@ -1,0 +1,15 @@
+{
+  "name": "bearmoth-skills",
+  "owner": {
+    "name": "Phil Davies",
+    "url": "https://github.com/bearmoth"
+  },
+  "plugins": [
+    {
+      "name": "roast-me",
+      "source": "./plugins/roast-me",
+      "description": "Roast the user based on their own git history — commit messages, timing, force-pushes, uncommitted mess, all of it. Purely for laughs.",
+      "version": "1.0.0"
+    }
+  ]
+}

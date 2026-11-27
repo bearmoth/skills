@@ -10,7 +10,7 @@ Run it with `/roast-me` (or `/roast-me <path>` to point it at a different repo �
 
 ## How it works
 
-A bundled script (`scripts/gather_evidence.sh`) pulls raw material from git — commit messages, timing histograms, reflog chaos, branch and stash state — across every local branch, not just whatever's checked out. Claude reads that evidence and performs a roast from it: no headers, no bullet points, just a comedian doing five minutes on your diary. See [`SKILL.md`](skills/roast-me/SKILL.md) for the full writing guidance, including the rules it follows to keep the humor sharp without guessing at things it can't actually verify (like mistaking a legitimate engineering decision for incompetence).
+A bundled script (`scripts/gather_evidence.sh`) pulls raw material from git — commit messages, timing histograms, reflog chaos, branch and stash state — across every local branch, not just whatever's checked out. Claude reads that evidence and performs a roast from it: no headers, no bullet points, just a comedian doing five minutes on your diary. See [`SKILL.md`](SKILL.md) for the full writing guidance, including the rules it follows to keep the humor sharp without guessing at things it can't actually verify (like mistaking a legitimate engineering decision for incompetence).
 
 ## Scope
 

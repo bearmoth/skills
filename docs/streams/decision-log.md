@@ -110,6 +110,7 @@ A stream that needs a decision not listed here **stops and asks**. It doesn't gu
 | W3 | Streams only connect through work merged to `main`. | decided |
 | W4 | Every `/goal` condition names a deterministic check whose output appears in the transcript, because the goal evaluator only judges the transcript (see Facts). | proposed |
 | W5 | Merges are the maintainer's. Agents open PRs and never merge them. | decided |
+| W6 | This folder is a plan for one piece of work, and is removed when that work is done. A final cleanup stream, S3, runs after S2d merges. It deletes the handovers and this folder's README, moves this log to `docs/decision-log.md` (the specs cite its IDs as their sources), and fixes the one path reference to it in `openspec/specs/requirements/spec.md`. `docs/adr/` and `openspec/specs/` stay as they are. Git history keeps the rest. | decided |
 
 ## Facts relied on
 

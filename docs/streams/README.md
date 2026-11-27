@@ -23,6 +23,9 @@ before starting any stream.
 | [S2b](2-verification-architecture.md#s2b-verify) | S0 and S2a are merged | autonomous `/goal` | `stream-2b-verify` |
 | [S2c](2-verification-architecture.md#s2c-system-map) | S2b is merged | autonomous `/goal` | `stream-2c-system-map` |
 | [S2d](2-verification-architecture.md#s2d-architecture-design) | S2c is merged | autonomous `/goal` | `stream-2d-architecture-design` |
+| S3 cleanup | S2d is merged | small PR, no `/goal` (W6) | `stream-3-cleanup` |
+
+**This folder is temporary (W6).** Once S2d merges, S3 deletes it and moves the decision log to `docs/decision-log.md`, because the specs cite its IDs. ADRs and specs are the lasting record.
 
 S0, S1a and S2a run in parallel. A stream that reaches a checkpoint waits there.
 The other streams keep going (W1).
